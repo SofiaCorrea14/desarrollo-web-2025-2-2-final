@@ -1,12 +1,30 @@
 .row {
   display: flex;
   gap: 16px;
-}
-
-.filters {
+  align-items: flex-start;
   margin-bottom: 16px;
 }
 
+.filters {
+  margin-bottom: 20px;
+}
+
 .form {
-  margin-top: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+mat-card {
+  padding: 16px;
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #0026ff;
+  }
 }
